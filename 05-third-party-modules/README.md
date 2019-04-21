@@ -6,7 +6,11 @@
 
 ### Installing Packages
 #### Locally
-` npm install {package-name} OR npm i {package-name} `
+``` 
+npm install {package-name} 
+OR 
+npm i {package-name}
+```
 
 #### Globally
 ` npm install --global {package-name}  OR npm i -g {package-name} `
