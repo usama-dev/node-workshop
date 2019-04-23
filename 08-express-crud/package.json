@@ -1,0 +1,17 @@
+{
+  "name": "express-crud",
+  "version": "1.0.0",
+  "description": "Simple CRUD application with express",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "usama-dev",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.11"
+  }
+}
