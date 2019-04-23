@@ -12,3 +12,10 @@ npm install -D nodemon
 ```
 npm i -g nodemon
 ```
+
+#### Usage:
+```
+nodemon index
+```
+
+[Documentation](https://nodemon.io/)
