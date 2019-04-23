@@ -1,12 +1,12 @@
 {
   "name": "npm",
   "version": "1.0.0",
-  "description": "",
+  "description": "This project contains an example of a 3rd party module",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "usama-dev",
   "license": "ISC",
   "dependencies": {
     "lodash": "^4.17.11"
