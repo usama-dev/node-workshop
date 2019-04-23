@@ -1,8 +1,8 @@
 // We can create an http server with the help of built-in http module
-var http = require('http'); 
+const http = require('http'); 
 
 // Creating server
-var server = http.createServer(function (req, res) {   
+const server = http.createServer(function (req, res) {   
 	console.log(`URL requested: ${req.url}`);
 
 	// Setting header

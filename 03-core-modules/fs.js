@@ -16,8 +16,8 @@ console.log(`Synchronous read: ${data}`);
 
 // It is recommended to use the async functions to avoid blocking the main thread
 
-// Creating and writing file content
-fs.writeFile('dummy.txt', 'Hello World!', (err) => { 
+// Creating and writing file content:
+fs.writeFile('dummy.txt', 'Hello World!', (err) => { 	// First argument is the path and name of the file, second one is the content and the third one is the callback function
 	if (err) console.log(err);
 	else console.log('Write operation complete.');
 });
@@ -35,7 +35,8 @@ fs.rename('oldFilename.txt', 'newFilename.txt', (err) => {
 });
 
 // Delete an existing file:
-fs.unlink('dummy1.txt', () => {
+fs.unlink('dummyDelete.txt', (err) => {
+	if (err) console.log(err);
     console.log('File Deleted!');
 });
 
