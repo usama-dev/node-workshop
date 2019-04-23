@@ -69,9 +69,9 @@ All packages have 3 digits in version **Major.Minor.Patch** e.g *2.4.7*
 ### Use in package.json file
 The package.json file will have **~** or **^** before versions. This will affect when you update packages.
 
-__~ (tilde):__ If you update packages with the ~ symbol it will only update the **patch** version. For instance 2.4.7 will be updated to 2.4.8 (if available).
+***~ (tilde):*** If you update packages with the ~ symbol it will only update the **patch** version. For instance 2.4.7 will be updated to 2.4.8 (if available).
 
-__^ (caret):__ If you update packages with the ^ symbol it will update all the **patch** and **minor** versions. For instance 2.4.7 will be updated to 2.7.9 (if available).
+***^ (caret):*** If you update packages with the ^ symbol it will update all the **patch** and **minor** versions. For instance 2.4.7 will be updated to 2.7.9 (if available).
 
 
 [More info](https://docs.npmjs.com/about-semantic-versioning)
