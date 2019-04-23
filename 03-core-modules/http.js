@@ -17,9 +17,7 @@ var server = http.createServer(function (req, res) {
 });
 
 // Listening on port
-server.listen(5000);
-
-console.log('Node.js web server running at port 5000');
+server.listen(5000, () => console.log('Node.js web server running at port 5000'));
 
 
 // Complete Doc: https://nodejs.org/api/http.html
