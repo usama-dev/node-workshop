@@ -1,6 +1,23 @@
 # NPM (Node Package Manager)
 NPM is the standard package manager of NodeJS. It comes with the NodeJS installer and lets you install the 3rd party packages with the command line tool and maintain them in the **package.json** file.
 
+#### Sample package.json file:
+```
+{
+  "name": "package-name",
+  "version": "1.0.0",
+  "description": "Description of the project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "author name",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.11"
+  }
+}
+```
 ## npm commands:
 
 ### Creating package.json
