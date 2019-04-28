@@ -18,7 +18,7 @@ app.use(express.static('public'));					// For serving static files
 app.use(logger);
 
 // 3rd party Middlewares
-app.use(responseTime());	// This will set a HTTP response header which tells the response time for requests
+app.use(responseTime());	// Response time for requests
 
 // Routes
 app.use('/', frontendRoutes);
