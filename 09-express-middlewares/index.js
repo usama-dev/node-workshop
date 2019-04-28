@@ -14,7 +14,7 @@ app.use(express.static('public'));	// For serving static files
 // 2- Custom Middleware
 app.use((req, res, next) => {
 	console.log(`Log -- Request URL: ${req.url} -- Method: ${req.method} -- Time: ${new Date()}`);
-	next();
+	next();		// Pass the request to the next middleware
 });
 
 // NOTE: The sequence of middleware matters. For example the following middleware function will run after the previous logging middleware
