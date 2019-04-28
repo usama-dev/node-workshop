@@ -1,4 +1,4 @@
-let { users } = require('../data/users');		// Importing users
+let { users } = require('../model/users');		// Importing users
 
 // GET Route - READ
 exports.getUsers = (req, res) => {

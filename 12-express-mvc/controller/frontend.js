@@ -1,4 +1,4 @@
-let { users } = require('../data/users');		// Importing users
+let { users } = require('../model/users');		// Importing users
 
 // Homepage
 exports.getHome = (req, res) => {
