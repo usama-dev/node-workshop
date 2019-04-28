@@ -1,0 +1,19 @@
+{
+  "name": "express-project-structure",
+  "version": "1.0.0",
+  "description": "Simple CRUD application with proper project structure & improvements",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "usama-dev",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "pug": "^2.0.3",
+    "response-time": "^2.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.11"
+  }
+}
