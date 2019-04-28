@@ -7,7 +7,7 @@ const app = express();		// Instantiating express
 // -------------------------------- MIDDLEWARES START --------------------------------
 // 1- Built-in middleware
 app.use(express.json());			// Pasrsing post json data
-app.use(express.urlencoded());		// Parses incoming requests with urlencoded payloads. Usually of form data like key1=value1&key2=value2. Use {extended = true} for rich objects and arrays to be encoded. 
+app.use(express.urlencoded( {extended: true} ));		// Parses incoming requests with urlencoded payloads. Usually of form data like key1=value1&key2=value2.
 app.use(express.static('public'));	// For serving static files
 
 // Docs for built-in middlewares: https://expressjs.com/en/api.html#express
@@ -67,8 +67,10 @@ app.post('/api/users', (req, res) => {
 	let user = req.body;	// Assigning the value of the posted data to a user variable
 	console.log(user);
 
+	// Task: Set validations here
+
 	users.push(user);		// Pushing the new user to the user Array
-	res.redirect('/');		// Sending back the response with the id
+	res.redirect('/');		// Redirecting the user to /
 });
 
 // PUT Route - UPDATE
