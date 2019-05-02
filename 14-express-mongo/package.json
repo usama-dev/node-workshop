@@ -1,0 +1,20 @@
+{
+  "name": "express-mongo",
+  "version": "1.0.0",
+  "description": "Simple CRUD application with mongoose",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "usama-dev",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "mongoose": "^5.5.5",
+    "pug": "^2.0.3",
+    "response-time": "^2.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.11"
+  }
+}
