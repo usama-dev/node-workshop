@@ -1,7 +1,5 @@
-// Import the express module
 const express = require('express');
 
-// Instantiate it in a variable
 const app = express();
 
 // Defining route

@@ -1,0 +1,11 @@
+# Files we don't want to copied in the docker image
+
+# Git folder
+.git
+
+# Docker files
+*Dockerfile*
+*docker-compose*
+
+# Node modules
+node_modules

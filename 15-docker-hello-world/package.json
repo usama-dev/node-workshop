@@ -1,7 +1,7 @@
 {
-  "name": "express-hello-world",
+  "name": "docker-hello-world",
   "version": "1.0.0",
-  "description": "Basic Hello World Express APP",
+  "description": "Basic Express APP with Docker Container",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
